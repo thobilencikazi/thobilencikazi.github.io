@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Thobile Ncikazi</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Lonely
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <script>
+    emailjs.init("TncJWFzHp-QMRRDXK"); // Replace with your EmailJS User ID
+</script>
+
+<script>
+  function sendContact() {
+         let templateParams = {
+             name: document.getElementById("name").value,
+             email: document.getElementById("email").value,
+             subject: document.getElementById("subject").value,
+             message: document.getElementById("message").value,
+         };
+         emailjs.send("service_iqmf4rn", "template_lm5oxkk", templateParams)
+             .then(response => alert("Order sent successfully!"))
+             .catch(error => alert("Failed to send order."));
+     }
+</script>
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Thobile Ncikazi</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>Hi, I'm Thobile!</h2>
+        <p>I am a Safety Officer based in South Africa.<br></p>
+        <a href="#about" class="btn-scroll" title="Scroll Down"><i class="bi bi-chevron-down"></i></a>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Hi, I'm Thobile, a dedicated Safety Officer and an Associate Member of SAOISH. With a strong passion for workplace safety and compliance, I specialize in creating and implementing effective health and safety strategies that ensure a secure and hazard-free environment.
+
+          With 2 years of experience in the field, I have worked across various industries, conducting risk assessments, developing safety policies, and ensuring compliance with occupational health and safety regulations. My goal is to promote a safety-conscious culture that protects employees and enhances workplace efficiency.
+          
+          I am committed to continuous learning and staying updated with the latest industry standards to provide the best solutions for my clients and employers. Let’s work together to make safety a priority!
+          
+          </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Safety Officer &amp; SAOISH Associate Member</h2>
+            <p class="fst-italic py-3">
+              Safety Officer & SAOISH Associate Member with expertise in workplace safety, risk assessment, and compliance, dedicated to fostering a culture of safety and continuous improvement.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>13 May 1995</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.thobilencikazi.github.io</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+27 65 879 6452</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Pietermaritzburg, South Africa</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Postgraduate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>thobi.dini@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Availability:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I believe that safety is not just a requirement but a responsibility. Through proactive measures, continuous education, and a commitment to excellence, I strive to create safer workplaces for everyone. Let’s work together to build a culture where safety comes first!
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>With a strong background in occupational health and safety, I bring a comprehensive skill set to ensure workplace safety and compliance. My expertise spans risk assessment, incident prevention, and safety training, helping to create safer environments for all. Here are some of my key skills:</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Safety Compliance</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Risk Assessment</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span> Incident Reporting</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span> First Aid</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+            </div><!-- End Skills Item -->
+
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Emergency Response</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Safety Training</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Audits & Inspections</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span> PPE Management</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              
+            </div><!-- End Skills Item -->
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>My professional journey as a Safety Officer reflects my commitment to creating safe and compliant work environments. With hands-on experience in risk assessment, incident prevention, and safety training, I have contributed to fostering a culture of safety across various industries. Below is an overview of my experience, education, and certifications.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Thobile Ncikazi</h4>
+              <p><em>Dedicated and detail-oriented Safety Officer with [X] years of experience in occupational health and safety. As an Associate Member of SAOISH, I specialize in risk assessment, compliance, and workplace safety training to ensure a secure and hazard-free environment. Passionate about fostering a strong safety culture and implementing proactive solutions that protect employees and enhance efficiency.</em></p>
+              <ul>
+                <li>KZN, South Africa</li>
+                <li>(065) 879-6452</li>
+                <li>Thobi.dini@gmail.com</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Advanced Diploma in Safety Management &amp; </h4>
+              <h5>- Currently -</h5>
+              <p><em>UNISA, Pietermaritzburg, KZN</em></p>
+              <p>This program provides in-depth knowledge of occupational health and safety principles, risk management, and compliance with industry regulations. It covers key areas such as hazard identification, incident investigation, emergency preparedness, and safety leadership. Graduates are equipped with the skills to develop, implement, and manage effective workplace safety systems, ensuring a safe and compliant working environment.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Higher Certificate in Practical Bookkeeping &amp; </h4>
+              <h5>2023</h5>
+              <p><em>UNISA, Pietermaritzburg, KZN</em></p>
+              <p>This course provides foundational knowledge and practical skills in bookkeeping, financial record-keeping, and accounting principles. It covers key areas such as ledger management, financial reporting, payroll processing, and tax compliance. Graduates are equipped to handle day-to-day financial transactions and maintain accurate financial records for businesses across various industries.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Legal Secretary</h4>
+              <h5>July 2020 - May 2024</h5>
+              <p><em>Cam Attorneys </em></p>
+              <ul>
+                <li>Facilitated communication between clients and legal professionals, ensuring efficient information flow.</li>
+                <li>Managed data capturing of debits and credits using LawPac software.</li>
+                <li>Generated SAP payment requisitions and maintained prescription alert data on LPIIF.</li>
+                <li>Implemented a structured filing system, improving document retrieval processes.</li>
+                <li>Demonstrated organisational skills by managing deadlines and prioritising tasks effectively.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Accounts Clerk</h4>
+              <h5>May 2018 - June 2020</h5>
+              <p><em>STAXC Accounting Solutions</em></p>
+              <ul>
+                <li>Assisted in accounts payable and receivable processes.</li>
+                <li>Entered financial transactions into accounting software (Sage Pastel).</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Supported payroll processing and administrative tasks for senior accountants.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+
+
+
+      <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>I’d love to connect with you! Whether you have a safety-related inquiry, need professional advice, or want to discuss potential opportunities, feel free to reach out to me. Here's how you can get in touch:</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Location</h3>
+                <p>KZN, South Africa</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Me</h3>
+                <p>+27 65 879 6452</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>thobi.dini@gmail.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form id="contact-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+            
+                <div class="col-md-6">
+                  <input type="email" id="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+            
+                <div class="col-md-12">
+                  <input type="text" id="subject" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+            
+                <div class="col-md-12">
+                  <textarea class="form-control" id="message" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+            
+                <div class="col-md-12 text-center">
+                  <div class="loading" style="display: none;">Loading...</div>
+                  <div class="error-message" style="display: none;"></div>
+                  <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+            
+                  <button type="submit" class="submit" style="border-radius: 5%; background-color: #d43076; ;">Send Message</button>
+                </div>
+              </div>
+            </form>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+    <div class="container">
+      <h3 class="sitename">Thobile Ncikazi</h3>
+      <p>Safety Officer & SAOISH Associate Member with expertise in workplace safety, risk assessment, and compliance, dedicated to fostering a culture of safety and continuous improvement.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("TncJWFzHp-QMRRDXK"); // Replace with your actual EmailJS User ID
+  })();
+
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    document.querySelector(".loading").style.display = "block"; // Show loading
+
+    let params = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      subject: document.getElementById("subject").value,
+      message: document.getElementById("message").value
+    };
+
+    emailjs.send("service_iqmf4rn", "template_lm5oxkk", params)
+      .then(function(response) {
+        console.log("Success!", response);
+        document.querySelector(".loading").style.display = "none";
+        document.querySelector(".sent-message").style.display = "block";
+        document.getElementById("contact-form").reset();
+      }, function(error) {
+        console.log("Failed...", error);
+        document.querySelector(".loading").style.display = "none";
+        document.querySelector(".error-message").textContent = "Failed to send message. Please try again.";
+        document.querySelector(".error-message").style.display = "block";
+      });
+  });
+</script>
+
+</body>
+
+</html>
